@@ -1,0 +1,63 @@
+body {
+    font-family: Courier New;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(255, 50, 50);
+  }
+
+  h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  div {
+    background-color: rgba(171, 78, 82, 70);
+    border-style: ridge;
+    
+    width: 75vw;
+    margin: 30px auto;
+    padding: 1vw;
+    text-align: center;
+  }
+
+  .lefty {
+    margin-right: 75vw;
+    margin-left:0px;
+    box-shadow: 10px 10px rgba(120, 78, 82, 70);
+  }
+  
+  .righty {
+    box-shadow: -10px 10px rgba(120, 78, 82, 70);
+    margin-left: 25vw;
+    margin-right: 0px;
+  }
+  
+  ul {
+    display: inline-block;
+    text-align: left;
+    margin: 30px, auto;
+  }
+  
+  ol {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+  }
+  
+  .splat {
+    width: 80%;
+    margin: auto;
+  }
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    color: aquamarine;
+  }
